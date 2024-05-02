@@ -4,6 +4,20 @@ using namespace std;
 #define ld long double
 const ll MOD = 1e9 + 7;
 void solve(){
+    int x;
+    cin>>x;
+    int anss=-1;
+    int ans=-1;
+
+    for(int i=1;i<x;i++){
+        int tmp=gcd(x,i)+i;
+
+        if(tmp>=ans){
+            ans=tmp;
+            anss=i;
+        }
+    }
+    cout<<anss<<endl;
 }
 int main()
 {
