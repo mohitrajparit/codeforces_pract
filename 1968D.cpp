@@ -16,19 +16,7 @@ void solve() {
         cin >> a[i];
     }
 
-    vector<ll> b(n + 1), s(n + 1);
-    for (int i = 1; i <= n; i++) {
-        b[i] = b[i - 1] + a[p[(pb + i - 2) % n]];
-        s[i] = s[i - 1] + a[p[(ps + i - 2) % n]];
-    }
-
-    ll sb = 0, ss = 0;
-    for (int i = 1; i <= k; i++) {
-        sb += a[p[(pb + i - 2) % n]];
-        ss += a[p[(ps + i - 2) % n]];
-        sb += s[min(k - i, n)] - s[0];
-        ss += b[min(k - i, n)] - b[0];
-    }
+    ll sb,ss;
 
     if (sb > ss) {
         cout << "Bodya\n";

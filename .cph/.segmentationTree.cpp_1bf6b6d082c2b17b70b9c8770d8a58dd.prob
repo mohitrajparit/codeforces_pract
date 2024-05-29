@@ -1,0 +1,1 @@
+{"name":"Local: segmentationTree","url":"/home/mohitrajparit/Desktop/dsa_cp/segmentationTree.cpp","tests":[{"id":1715164020251,"input":"8\n5 3 2 4 1 8 6 10\n1\n1 5\n1\n0 7\n1\n1 6\n-1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/mohitrajparit/Desktop/dsa_cp/segmentationTree.cpp","group":"local","local":true}

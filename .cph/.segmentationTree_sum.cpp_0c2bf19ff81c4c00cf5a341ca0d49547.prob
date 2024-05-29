@@ -1,0 +1,1 @@
+{"name":"Local: segmentationTree_sum","url":"/home/mohitrajparit/Desktop/dsa_cp/segmentationTree_sum.cpp","tests":[{"id":1715166834945,"input":"8  \n5 3 2 4 1 8 6 10\n1\n1 5\n-1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/mohitrajparit/Desktop/dsa_cp/segmentationTree_sum.cpp","group":"local","local":true}
